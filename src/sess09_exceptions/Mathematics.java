@@ -77,5 +77,9 @@ public class Mathematics
         {
             System.err.println("Error: " + dbze.getLocalizedMessage());
         }
+        catch(Exception e) // General catch block
+        {
+            System.err.println("Error: " + e.getLocalizedMessage());
+        }
     }
 }
