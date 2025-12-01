@@ -1,5 +1,7 @@
 package sess09_exceptions;
 
+import util.Spacer;
+
 /**
  * Java program to demonstrate some common exceptions with arrays and strings.
  * 
@@ -192,43 +194,38 @@ public class ArrayAndStringExceptions
         }
     }
 
-    // Utility method for visual separation
-    private static void separator()
-    {
-        System.out.println("-".repeat(75));
-        System.out.println();
-    }
+    
     
     // main method begins program execution
     public static void main(String[] args)
     {
         // Call the above methods to demonstrate various array & string exceptions
         demoArrayIndexOutOfBoundsException();
-        separator();
+        Spacer.separator();
         
         demoNullPointerExceptionWithArray();
-        separator();
+        Spacer.separator();
         
         demoArrayStoreException();
-        separator();
+        Spacer.separator();
         
         demoNegativeArraySizeException();
-        separator();
+        Spacer.separator();
         
         demoStringIndexOutOfBoundsException();
-        separator();
+        Spacer.separator();
         
         demoNumberFormatException();
-        separator();
+        Spacer.separator();
         
         demoNullPointerExceptionWithStrings();
-        separator();
+        Spacer.separator();
         
         demoClassCastException();
-        separator();
+        Spacer.separator();
         
         demoMultiDimensionalArrayIndexOutOfBoundsException();
-        separator();
+        Spacer.separator();
     }
     
     
